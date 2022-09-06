@@ -21,6 +21,7 @@ h1
 
 #title{
     background-color: #ff4c68;
+    
 }
 #features{
     background-color:#ffff;
@@ -51,14 +52,29 @@ h1
     font-family: "Montserrat";
 }
 .title-img{
-    width: 70%;
-    transform: rotate(30deg);
-   padding: 10% ;
+    width: 20%;
+    transform: rotate(25deg);
+   position: absolute;
+  right: 25%;
+   
+}
+@media screen and (max-width:993px)   {
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+        
+    }
+    #title{
+        text-align: center;
+
+    }
     
 }
 
 #features{
     padding: 7% 15%;
+    position: relative;
+    
 }
 
 .fb{
@@ -79,6 +95,7 @@ h1
     background-color: #ef8172;
     padding: 7% 15%;
     text-align: center;
+   
     
  }
  
@@ -91,8 +108,11 @@ h1
  h2{
     
     font-family: "Montserrat";
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight:bold;
+   
+ }
+ .txt-car,em{
     color: #ffff;
  }
 
@@ -104,3 +124,54 @@ h1
     width: 15%;
     padding-bottom: 5%;
  }
+#pricing{
+    text-align: center;
+    background-color: #ffff;
+}
+h2{
+    color: black;
+}
+
+#pricing{
+    padding: 10%;
+    
+}
+
+.card-deck{
+    padding-top: 3%;
+}
+.card{
+    margin:3%;
+}
+.card-body{
+    margin: 7%;
+    line-height: 1.5;
+}
+.carousel-item{
+   padding: 9%;
+   
+}
+
+#cta{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+}
+
+#footer{
+    padding:  5%;
+    text-align: center;
+    background-color: rgb(65, 62, 62);
+  
+}
+
+.ic{
+    color: #bfbfbf;
+    padding: 5px;
+    font-size: 20px;
+}
+.ic:hover{
+    color: white;
+    cursor: pointer;
+}
+
